@@ -1,0 +1,24 @@
+{
+    "localterra": {
+        "blank": {
+            "codeId": "34",
+            "contractAddresses": {
+                "default": "terra1hpyvv9l8ngtc3rzmgad3pxf4l0tqm2prps6dd6"
+            }
+        }
+    },
+    "testnet": {
+        "blank": {
+            "codeId": "65532",
+            "contractAddresses": {
+                "default": "terra1xpx88vypkmkvc403slclf7wnlq4h4ch6sjvq68"
+            }
+        },
+        "counter": {
+            "codeId": "65627",
+            "contractAddresses": {
+                "default": "terra1wuk2gcx88z7t63ajhzk95a5yv53lfr5j3d3g56"
+            }
+        }
+    }
+}

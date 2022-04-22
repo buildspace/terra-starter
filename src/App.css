@@ -1,0 +1,198 @@
+@font-face {
+    font-family: press_start;
+    src: url("./fonts/PressStart2P-Regular.ttf");
+}
+
+h3,
+span {
+    font-family: press_start;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 90vh;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.header-titles {
+    color: white;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wallet-address {
+    color:white; 
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    height: 45px;
+    border: 0;
+    padding: 0 40px;
+    border-radius: 5px;
+    animation: gradient-animation 4s ease infinite;
+    background-image: linear-gradient(to right, #ff6e7f 0%, #f09819 100%);
+}
+
+.home-link{
+    padding-top: 30px;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.cta-button {
+    height: 45px;
+    border: 0;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.connect-wallet-button {
+    background-image: linear-gradient(to right, #c267ee 0%, #51daec 100%);
+    background-size: 200% 200%;
+    animation: gradient-animation 4s ease infinite;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.twitter-logo {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.connect-wallet-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect-wallet-img {
+    width: 30%;
+    padding: 50px 0;
+}
+
+.home-link{
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.game-menu-container {
+    padding: 100px;
+}
+
+.game-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+}
+
+.item-text {
+    line-height: 3;
+}
+
+.item-text:hover {
+    color: #b0d59f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.score-board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.score{
+    padding: 10px 0;
+}
+
+.help{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.play-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 40px;
+}
+
+.game-container {
+    border: 1px solid white;
+    min-height: 80vh;
+    min-width: 80vw;
+    margin: 20px;
+}
+
+#target{
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    height: 60px;
+}
+
+.set-score-btn {
+    margin-top: 50px;
+}
+
+#marine-img {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
